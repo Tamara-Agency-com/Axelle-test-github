@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "6c781fa0-89a3-46e4-9015-b5d78148147c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16818123604182__6c781fa0-89a3-46e4-9015-b5d78148147c-16723921489311717f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LIVRAISON<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16818123604182__6c781fa0-89a3-46e4-9015-b5d78148147c-16723921489311717f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Livraison<\/strong><\/p><p><strong>Délais<\/strong> :<\/p><p>Les colis acheminés par Colissimo sont livrés sous 72h ouvrées.<\/p><p>Il n’y a pas de livraison les dimanches et jours fériés.<\/p><p><strong>Tarifs <\/strong>:<\/p><p>Colissimo gratuit en France<\/p><p><strong>Conditionnement et livraison : <\/strong><\/p><p>Vous vous questionnez par rapport à la livraison de votre bouquet de fleurs séchées ? <\/p><p>On vous explique comment cela fonctionne, pour une commande tout en sérénité.<\/p><p>Dès votre commande passée, nous nous mettons au travail, votre article est réalisée dans les 10 jours ouvrés qui suivent votre commande sur notre site. Une fois prêt, votre produit est soigneusement empacté.<\/p><p>Pour le conditionnement, votre produit sera envoyé dans un carton d’emballage solide et adapté aux chocs. Votre composition sera ensuite conditionnée dans un emballage dédié.<\/p><p>Une fois votre commande reçue, découvrez votre joli bouquet, prêt à installer. <\/p><p><strong>Retour<\/strong><\/p><p>Vous disposez d’un droit de rétractation de 14 jours.<\/p><p>Les frais de retour sont à la charge du client. Une fois le colis reçu, et si le produit n’a pas été endommagé nous nous engageons à rembourser votre commande.<\/p><p>Un service après vente est également à votre écoute pour les cas particuliers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16818123604182__6c781fa0-89a3-46e4-9015-b5d78148147c-16723921489311717f-0",
+        "template--16818123604182__6c781fa0-89a3-46e4-9015-b5d78148147c-16723921489311717f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6c781fa0-89a3-46e4-9015-b5d78148147c"
+  ]
+}

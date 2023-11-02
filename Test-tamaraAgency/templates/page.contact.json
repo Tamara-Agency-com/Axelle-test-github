@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f3b3162e-ff1f-4280-ac9e-6173156bacfc": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16804117217494__f3b3162e-ff1f-4280-ac9e-6173156bacfc-16705961173dcdec0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "La boutique de Noël",
+            "heading_size": "h1"
+          }
+        },
+        "template--16804117217494__f3b3162e-ff1f-4280-ac9e-6173156bacfc-16705961173dcdec0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Vous fournir les meilleurs produits possibles afin que vous passiez des fêtes magiques !",
+            "text_style": "body"
+          }
+        },
+        "template--16804117217494__f3b3162e-ff1f-4280-ac9e-6173156bacfc-16705961173dcdec0c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Nos produits",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16804117217494__f3b3162e-ff1f-4280-ac9e-6173156bacfc-16705961173dcdec0c-0",
+        "template--16804117217494__f3b3162e-ff1f-4280-ac9e-6173156bacfc-16705961173dcdec0c-1",
+        "template--16804117217494__f3b3162e-ff1f-4280-ac9e-6173156bacfc-16705961173dcdec0c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/juratourisme_11155_a5.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "a50b57da-f730-4b32-ac5e-24cc2a477c1b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16804117217494__a50b57da-f730-4b32-ac5e-24cc2a477c1b-1670596117da730762-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nos producteurs👨🏼‍🦰",
+            "heading_size": "h1"
+          }
+        },
+        "template--16804117217494__a50b57da-f730-4b32-ac5e-24cc2a477c1b-1670596117da730762-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tous nos producteurs sont localisé en France. Les produits sont faits mains, ce qui vous garantira une qualité optimale ! <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16804117217494__a50b57da-f730-4b32-ac5e-24cc2a477c1b-1670596117da730762-0",
+        "template--16804117217494__a50b57da-f730-4b32-ac5e-24cc2a477c1b-1670596117da730762-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/B9723119803Z.1_20200403102137_000_G7JFQE9QB.2-0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7d133932-9fdf-4db9-bb72-05f382995f20": {
+      "type": "image-with-text",
+      "blocks": {
+        "321e2fa6-68e3-4848-8e08-d04074a35217": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nos ateliers🪵",
+            "heading_size": "h1"
+          }
+        },
+        "d2926371-3866-4827-9fa3-050aedeaf4af": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gravida dictum fusce ut placerat orci. Malesuada pellentesque elit eget gravida. Sed id semper risus in. Eleifend quam adipiscing vitae proin sagittis nisl. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "321e2fa6-68e3-4848-8e08-d04074a35217",
+        "d2926371-3866-4827-9fa3-050aedeaf4af"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/atelier-de-pennart-HD-scaled.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f3b3162e-ff1f-4280-ac9e-6173156bacfc",
+    "a50b57da-f730-4b32-ac5e-24cc2a477c1b",
+    "7d133932-9fdf-4db9-bb72-05f382995f20"
+  ]
+}

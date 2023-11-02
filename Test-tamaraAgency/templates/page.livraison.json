@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "85d5222a-3abd-4b10-95d5-30ad8af6b6bd": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--16817745756374__85d5222a-3abd-4b10-95d5-30ad8af6b6bd-1672391333f7d464bf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Foire aux questions",
+            "heading_size": "h1"
+          }
+        },
+        "template--16817745756374__85d5222a-3abd-4b10-95d5-30ad8af6b6bd-1672391333f7d464bf-1": {
+          "type": "text",
+          "settings": {
+            "text": "Cette espace vous est destiné afin de répondre à toutes les questions que vous vous posez, si vous avez un doute, une suggestion à nous faire...",
+            "text_style": "body"
+          }
+        },
+        "template--16817745756374__85d5222a-3abd-4b10-95d5-30ad8af6b6bd-1672391333f7d464bf-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16817745756374__85d5222a-3abd-4b10-95d5-30ad8af6b6bd-1672391333f7d464bf-0",
+        "template--16817745756374__85d5222a-3abd-4b10-95d5-30ad8af6b6bd-1672391333f7d464bf-1",
+        "template--16817745756374__85d5222a-3abd-4b10-95d5-30ad8af6b6bd-1672391333f7d464bf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/juratourisme-13971-a5-4234144.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "d8a80d40-5df9-46ef-8e73-fbbe310701a5": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment entretenir son sapin ?",
+            "icon": "question_mark",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis dapibus mi, id pharetra eros. Curabitur at justo volutpat, porttitor nisi eget, accumsan lacus. Pellentesque fringilla sapien vel mauris tempor, sit amet lobortis metus rutrum. Donec ex lacus, viverra in cursus at, mattis sed turpis. Sed a varius dui. Fusce libero mauris, scelerisque quis orci sed, finibus maximus velit. Mauris fermentum ipsum eget cursus dignissim. Nam hendrerit sem id bibendum aliquet. Phasellus neque massa, facilisis et pulvinar eget, congue ac leo. Cras aliquet metus risus, nec ornare odio convallis sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "D'ou viennent les produits ?",
+            "icon": "question_mark",
+            "row_content": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed et neque vitae nisi tincidunt pellentesque. Cras pellentesque placerat magna, in interdum lacus iaculis non. Quisque sit amet ligula mollis, pellentesque turpis ac, pellentesque neque. Nunc lacinia ligula eget nisl dapibus luctus. Duis arcu sapien, vehicula in enim vitae, luctus vestibulum urna. Nulla ac sodales urna, sed pharetra eros. Vestibulum tincidunt porta justo, et euismod libero ornare at.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le click and collect",
+            "icon": "question_mark",
+            "row_content": "<p>Nam faucibus mi enim, id ullamcorper mi suscipit nec. Nullam ornare sit amet turpis non feugiat. Integer a tellus tellus. Vivamus eu arcu suscipit, pharetra lacus in, euismod nisl. Nam ultrices fringilla libero non dignissim. Quisque malesuada odio in tortor consectetur, et volutpat mi fermentum. Etiam at urna metus. Donec consectetur sagittis libero, auctor sodales est blandit in. Curabitur euismod nunc ac scelerisque consequat. Integer accumsan facilisis vulputate.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment suivre ma commande ?",
+            "icon": "question_mark",
+            "row_content": "<p>Sed semper, tortor eget blandit viverra, augue enim vulputate lorem, et lobortis tellus est quis risus. Aenean pharetra posuere viverra. Praesent a aliquam odio. Pellentesque purus tellus, faucibus sed elit id, efficitur mollis sapien. Aliquam erat volutpat. Fusce nec tellus eget ipsum egestas gravida. Vivamus id vestibulum ex, a pulvinar massa. Integer convallis libero a enim feugiat, sit amet faucibus quam dictum. Aenean sed ipsum felis.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-0",
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-1",
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-2",
+        "template--16817745756374__d8a80d40-5df9-46ef-8e73-fbbe310701a5-16723913332fd900c0-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "🎄💫",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ec38f1ab-b723-48f2-9c82-469f2e5186f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16817745756374__ec38f1ab-b723-48f2-9c82-469f2e5186f2-1672391351444cae4e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Vous n'avez pas trouvé de réponses ?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16817745756374__ec38f1ab-b723-48f2-9c82-469f2e5186f2-1672391351444cae4e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Contactez-nous via notre formulaire ! 👇🏼<\/p>"
+          }
+        },
+        "template--16817745756374__ec38f1ab-b723-48f2-9c82-469f2e5186f2-1672391351444cae4e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Clic ici !",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16817745756374__ec38f1ab-b723-48f2-9c82-469f2e5186f2-1672391351444cae4e-0",
+        "template--16817745756374__ec38f1ab-b723-48f2-9c82-469f2e5186f2-1672391351444cae4e-1",
+        "template--16817745756374__ec38f1ab-b723-48f2-9c82-469f2e5186f2-1672391351444cae4e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "85d5222a-3abd-4b10-95d5-30ad8af6b6bd",
+    "d8a80d40-5df9-46ef-8e73-fbbe310701a5",
+    "ec38f1ab-b723-48f2-9c82-469f2e5186f2"
+  ]
+}

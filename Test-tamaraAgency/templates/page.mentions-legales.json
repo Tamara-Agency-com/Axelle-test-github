@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "42dff944-ff35-4e6a-be08-d66ddae8a65f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16818130845910__42dff944-ff35-4e6a-be08-d66ddae8a65f-167239286314e1a7be-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Mentions légales<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16818130845910__42dff944-ff35-4e6a-be08-d66ddae8a65f-167239286314e1a7be-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nom de société : La boutique de Noël<\/p><p>Forme Juridique : SA<\/p><p>Adresse du siège social : 7 rue de la garenne<\/p><p>Capital social : x euros<\/p><p>Contact : <a href=\"mailto:contact@sauje.com\" target=\"_blank\">contact@laboutiquedenoel.com<\/a><\/p><p>RSC : x<\/p><p>SIRET : x<\/p><p>TVA intracommunautaire : x<\/p><p>Site internet : Tamara Agency<\/p><p>Hébergeur du site : Shopify<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16818130845910__42dff944-ff35-4e6a-be08-d66ddae8a65f-167239286314e1a7be-0",
+        "template--16818130845910__42dff944-ff35-4e6a-be08-d66ddae8a65f-167239286314e1a7be-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "42dff944-ff35-4e6a-be08-d66ddae8a65f"
+  ]
+}

@@ -1,0 +1,71 @@
+// Define the environment variables
+//let env_template = "{{ template.name }}"; // Page template
+
+// ENV_CHANNEL
+var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+if (windowWidth <= 740) {
+  var find_env_channel = 'mobil';
+} else if (windowWidth > 740 && windowWidth <= 999) {
+  var find_env_channel = 'tablet';
+} else {
+  var find_env_channel = 'desktop';
+}
+
+// Environnement
+let env_work = "preprod"; // Work environment
+let env_country = Shopify.country; // variables Shopify
+let env_channel = find_env_channel // See above
+let env_language = Shopify.locale; // Site language in ISO 639-1 format
+
+// Utilisateur
+var user_id = typeof user_id !== 'undefined' ? user_id : "";
+
+var user_login_status = user_id !== '' ? "connecté" : "non-connecté";
+var user_customer_status = typeof user_customer_status !== 'undefined' ? user_customer_status : "";
+
+// Contenu
+var page_cat1_name = 'inconnu';
+var page_error = 'A voir plus tard avec GTM';
+var page_uri = window.location.href;
+var page_name = window.location.pathname.split("/").pop();
+
+console.log('**************************\n' + page_name + '\n' + page_uri + '\n**************************');
+
+if( 1 == 1){
+    console.log('************************ GTM ********************************');
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event': 'page_view',
+      'shopify_env_work': env_work,
+      'env_country': env_country,
+      'env_channel': env_channel,
+      'env_language': env_language,
+      'user_id': user_id,
+      'user_login_status' : user_login_status,
+      'user_customer_status' : user_customer_status,
+      'page_cat1_name' : page_cat1_name,
+      'page_error' : page_error,
+      'page_uri' : page_uri,
+      'page_name' : page_name
+  });
+}
+else{
+      console.log('************************ GA4 ********************************');
+  window.addEventListener('load', (event) => {
+    gtag('event', 'page_view', {
+      'env_work': env_work,
+      'env_country': env_country,
+      'env_channel': env_channel,
+      'env_language': env_language,
+      'user_id': user_id,
+      'user_login_status' : user_login_status,
+      'user_customer_status' : user_customer_status,
+      'page_cat1_name' : page_cat1_name,
+      'page_error' : page_error,
+      'page_uri' : page_uri,
+      'page_name' : page_name
+    });
+  });
+}
+
+  // End Data Layer -->
